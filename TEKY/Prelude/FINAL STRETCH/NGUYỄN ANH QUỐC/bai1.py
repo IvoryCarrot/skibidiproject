@@ -1,0 +1,6 @@
+ho_ten = input("Nhập họ và tên: ")
+ho_ten1 = ho_ten.strip()
+ho_ten1 = ho_ten1.title()
+ho_ten_list = ho_ten1.split()
+# print(ho_ten1,ho_ten_list)
+print(f"Họ và tên: {ho_ten1}\nTên riêng: {ho_ten_list[-1]}\nSố từ: {len(ho_ten_list)}")
